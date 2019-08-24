@@ -1,0 +1,4 @@
+// Reply to a message
+message.reply('Hello!')
+  .then(sent => console.log(`Hello, ${sent.author.username}`))
+  .catch(console.error);
